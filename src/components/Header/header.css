@@ -1,3 +1,41 @@
 .header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
     height: 100px;
+}
+.navbar-brand,
+h3 {
+    margin: 0 !important;
+    padding: 0;
+}
+#navbarNav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__nav-ul {
+    justify-content: center;
+    flex: 1;
+}
+
+.header__nav-link {
+    font-weight: 500;
+    color: black !important;
+    font-size: 1.2rem;
+}
+
+.navbar__user {
+    display: flex;
+}
+
+.icon-cart,
+.icon-user {
+    width: 21px;
+    height: 20px;
+}
+
+.navbar-logo,
+.navbar__user {
+    width: 170px;
 }
